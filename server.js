@@ -1,4 +1,5 @@
- const express = require('express');
+require("dotenv").config();
+const express = require('express');
 const http = require('http'); // ← Agregar esta línea
 const socketIo = require('socket.io'); // ← Agregar esta línea
 const cors = require('cors');
